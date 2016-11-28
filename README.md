@@ -24,6 +24,8 @@
 3. Запустити команду npm install
 4. Запустти команду nodemon app або node app
 
+> За замовчуванням рішення буде доступне за адресою - localhost:3000
+
 ## Технології, які були використані:
 1. Node.js v7
 2. Express
@@ -31,3 +33,4 @@
 4. AngularJS
 5. Bootstrap
 6. Pasport.js
+
