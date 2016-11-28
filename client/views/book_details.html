@@ -1,0 +1,26 @@
+<div class="panel panel-default" ng-init="getBook()">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{book.title}}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="{{book.image_url}}">
+      </div>
+      <div class="col-md-4">
+        <p>{{book.description}}</p>
+        <ul class="list-group">
+          <li class="list-group-item">Жанр: {{book.genre}}</li>
+          <li class="list-group-item">Автор: {{book.author}}</li>
+          <li class="list-group-item">Видавець: {{book.publisher}}</li>
+          <li class="list-group-item">К-сть сторінок: {{book.pages}}</li>
+        </ul>
+        <a target="_blank" href="{{book.buy_url}}" class="btn btn-primary">Купити книгу</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pull-right">
+  <a href="#/books/edit/{{book._id}}">Редагувати</a> | <a href="#" ng-click="removeBook(book._id)">Видалити</a>
+  </div>

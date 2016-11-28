@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Book Manager</title>
+    <link rel="stylesheet" href="/scripts/bootstrap/dist/css/bootstrap.css"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#/">Book Manager</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#/books/add">Додати книгу</a></li>
+              </ul>
+
+            </div>
+
+            </div>
+          </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  <div ng-view></div>
+          </div>
+        </div>
+        </div>
+        </div>
+
+      <script src="/scripts/jquery/dist/jquery.js"></script>
+      <script src="/scripts/angular/angular.js"></script>
+      <script src="/scripts/angular-route/angular-route.js"></script>
+      <script src="/scripts/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="./app.js"></script>
+      <script src="./services.js"></script>
+      <script src="./controllers.js"></script>
+      <script src="controllers/books.js"></script>
+      <script src="controllers/genres.js"></script>
+  </body>
+</html>
