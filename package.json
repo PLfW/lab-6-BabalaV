@@ -1,0 +1,45 @@
+{
+  "name": "book_manager",
+  "version": "1.0.2",
+  "description": "Simple book manager",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BabalaV/Book-Manager.git"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "*",
+    "cookie-parser": "^1.4.1",
+    "bootstrap": "^3.3.7",
+    "debug": "^2.2.0",
+    "express": "*",
+    "express-session": "^1.13.0",
+    "jquery": "^3.1.1",
+    "mongoose": "*",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "*",
+    "bootstrap": "^3.3.7",
+    "express": "*",
+    "jquery": "^3.1.1",
+    "mongoose": "*"
+  },
+  "author": "Babala Vasyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BabalaV/Book-Manager/issues"
+  },
+  "homepage": "https://github.com/BabalaV/Book-Manager#readme",
+  "engines" : { "node" : "7.0.0" } 
+}
